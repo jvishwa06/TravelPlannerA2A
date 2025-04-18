@@ -3,8 +3,8 @@ import requests
 
 st.set_page_config(page_title="Agent2Agent Travel Planne", page_icon="✈️")
 st.title("🌍 Agent2Agent Travel Planner")
-origin = st.text_input("Where are you flying from?", placeholder="e.g., New York")
-destination = st.text_input("Destination", placeholder="e.g., Paris")
+origin = st.text_input("Where are you flying from?", placeholder="e.g., Coimbatore")
+destination = st.text_input("Destination", placeholder="e.g., Maldives")
 start_date = st.date_input("Start Date")
 end_date = st.date_input("End Date")
 budget = st.number_input("Budget (in USD)", min_value=100, step=50)
