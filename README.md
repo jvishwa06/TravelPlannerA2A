@@ -1,7 +1,7 @@
 # TravelPlannerA2A
 
 ## Overview
-Travel Planner Agent2Agent is a multi-agent AI system that orchestrates travel planning using Agent-to-Agent (A2A) communication. This application demonstrates how specialized AI agents can collaborate to produce comprehensive travel itineraries based on user preferences.
+Travel Planner A2A is a multi-agent AI system that orchestrates travel planning using Agent-to-Agent (A2A) communication. This application demonstrates how specialized AI agents can collaborate to produce comprehensive travel itineraries based on user preferences.
 
 The system features specialized agents for flights, accommodation, and activities that work together, coordinated by a host agent, to deliver a complete travel plan through a user-friendly interface.
 
@@ -35,8 +35,8 @@ The system features specialized agents for flights, accommodation, and activitie
 ### Setup
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd GoogleA2A
+git clone https://github.com/jvishwa06/TravelPlannerA2A.git
+cd TravelPlannerA2A
 ```
 
 2. Install dependencies:
