@@ -9,7 +9,7 @@ host_agent = Agent(
     model=LiteLlm("groq/llama3-8b-8192"),
     description="Coordinates travel planning by calling flight, stay, and activity agents.",
     instruction="You are the host agent responsible for orchestrating trip planning tasks. "
-                "You call external agents to gather flights, stays, and activities, then return a final result."
+    "You call external agents to gather flights, stays, and activities, then return a final result."
 )
 session_service = InMemorySessionService()
 runner = Runner(
@@ -19,7 +19,6 @@ runner = Runner(
 )
 USER_ID = "user_host"
 SESSION_ID = "session_host"
-
 
 async def execute(request):
     session_service.create_session(

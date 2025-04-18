@@ -1,8 +1,7 @@
 google-adk
 litellm
-fastapi 
-uvicorn 
-httpx 
-pydantic 
-openai 
+fastapi
+uvicorn
+httpx
+pydantic
 streamlit
