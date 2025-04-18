@@ -4,10 +4,9 @@ from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
 from google.genai import types
 
-
 host_agent = Agent(
     name="host_agent",
-    model=LiteLlm("openai/gpt-4o"),
+    model=LiteLlm("groq/llama3-8b-8192"),
     description="Coordinates travel planning by calling flight, stay, and activity agents.",
     instruction="You are the host agent responsible for orchestrating trip planning tasks. "
                 "You call external agents to gather flights, stays, and activities, then return a final result."
